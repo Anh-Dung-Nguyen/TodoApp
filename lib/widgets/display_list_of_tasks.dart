@@ -1,7 +1,7 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:todoapp/utils/extensions.dart';
 import 'package:todoapp/widgets/common_container.dart';
+import 'package:todoapp/widgets/widgets.dart';
 import '../data/data.dart' show Task;
 
 class DisplayListOfTasks extends StatelessWidget {
@@ -29,12 +29,16 @@ class DisplayListOfTasks extends StatelessWidget {
             style: context.textTheme.headlineSmall,
           ),
         ) 
-        : ListView.builder(
+        : ListView.separated(
           shrinkWrap: true,
           itemCount: tasks.length,
           padding: EdgeInsets.zero,
           itemBuilder: (context, index) {
-            return const Text('Home');
+            final task = tasks[index];
+            return TaskTile(task: task);
+          }, 
+          separatorBuilder: (BuildContext context, int index) {
+            return const Divider(thickness: 1.5);
           },
         ),
     );
