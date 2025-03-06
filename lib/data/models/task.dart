@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:todoapp/utils/task_categories.dart';
+import '../../utils/utils.dart';
 
 class Task extends Equatable {
   final int? id;
@@ -32,5 +33,29 @@ class Task extends Equatable {
       date,
       isCompleted,
     ];
+  }
+
+  Map<String, dynamic> toJson() {
+    return <String, dynamic>{
+      TaskKeys.id: id,
+      TaskKeys.title: title,
+      TaskKeys.note: note,
+      TaskKeys.time: time,
+      TaskKeys.date: date,
+      TaskKeys.category: category.name,
+      TaskKeys.isCompleted: isCompleted,
+    };
+  }
+
+  factory Task.fromJson(Map<String, dynamic> map) {
+    return Task(
+      id: map[TaskKeys.id],
+      title: map[TaskKeys.title],
+      note: map[TaskKeys.note],
+      time: map[TaskKeys.time],
+      date: map[TaskKeys.date],
+      category: TaskCategories.stringToCategory(map[TaskKeys.category]),
+      isCompleted: map['isCompleted'],
+    );
   }
 }
