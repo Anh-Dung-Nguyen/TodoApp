@@ -59,7 +59,7 @@ class HomeScreen extends ConsumerWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     DisplayListOfTasks(
-                      tasks: completedTasks,
+                      tasks: inCompletedTasks,
                     ),
                     const Gap(20),
                     Text(
@@ -68,7 +68,7 @@ class HomeScreen extends ConsumerWidget {
                     ),
                     const Gap(20),
                     DisplayListOfTasks(
-                      tasks: inCompletedTasks,
+                      tasks: completedTasks,
                       isCompletedTasks: true,
                     ),
                     const Gap(20),
