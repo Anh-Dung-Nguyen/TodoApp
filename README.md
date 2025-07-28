@@ -115,12 +115,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## License
 
-Distributed under the [Your Chosen License, e.g., MIT License]. See the `LICENSE` file in the repository for more information.
+Distributed under the MIT License. See the `LICENSE` file in the repository for more information.
 
 ---
 
 ## Contact
 
-Anh-Dung Nguyen - [Your Email Address] - [Your LinkedIn Profile URL (Optional)]
+Anh-Dung Nguyen - [Anh-Dung.Nguyen@insa-rennes.fr] - [LinkedIn](https://www.linkedin.com/in/anh-dung-nguyen/)
 
 Project Link: [https://github.com/Anh-Dung-Nguyen/TodoApp](https://github.com/Anh-Dung-Nguyen/TodoApp)
