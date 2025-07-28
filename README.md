@@ -24,8 +24,6 @@ A cross-platform mobile application built with **Flutter** and **Dart**, designe
 
 This TodoApp offers a clean, intuitive, and responsive user interface for organizing your tasks. Built with Flutter, it ensures a consistent experience across different mobile platforms. You can easily add new tasks, mark them as complete, modify existing entries, and delete them when they're no longer needed. The application aims to streamline your task management, helping you stay organized and productive on the go.
 
-*(Optional: Elaborate more on any specific design choices, state management solutions (e.g., Provider, BLoC), or data persistence methods (e.g., Sqflite, Hive) you've implemented.)*
-
 ---
 
 ## Features
@@ -34,7 +32,6 @@ This TodoApp offers a clean, intuitive, and responsive user interface for organi
 * **Mark as Complete:** Toggle tasks between incomplete and complete status.
 * **Edit Tasks:** Modify the description of existing tasks with ease.
 * **Delete Tasks:** Remove completed or unwanted tasks from your list.
-* *(Add any other specific features your app has, e.g., task filtering, reminders, categories, local data persistence, etc.)*
 
 ---
 
@@ -44,9 +41,6 @@ This project is built using the following technologies:
 
 * **Framework:** [Flutter](https://flutter.dev/)
 * **Language:** [Dart](https://dart.dev/)
-* *(Add any significant Dart packages or Flutter plugins you used, e.g., `provider`, `sqflite`, `http`, `intl`.)*
-    * `[package_name]` - [Brief description of what it's for]
-    * `[another_package]` - [Brief description]
 
 ---
 
@@ -61,7 +55,6 @@ Ensure you have the following installed:
 * **Flutter SDK:** Follow the official Flutter installation guide for your operating system: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 * **IDE with Flutter/Dart plugins:**
     * [VS Code](https://code.visualstudio.com/) with Flutter extension
-    * [Android Studio](https://developer.android.com/studio) with Flutter plugin
 
 ### Installation
 
