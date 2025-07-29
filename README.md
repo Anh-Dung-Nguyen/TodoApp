@@ -121,6 +121,6 @@ Distributed under the MIT License. See the `LICENSE` file in the repository for 
 
 ## Contact
 
-Anh-Dung Nguyen - [Anh-Dung.Nguyen@insa-rennes.fr] - [LinkedIn](https://www.linkedin.com/in/anh-dung-nguyen/)
+Anh-Dung Nguyen - [Anh-Dung.Nguyen@insa-rennes.fr] - [nguyenanhdung2807@gmail.com] [LinkedIn](https://www.linkedin.com/in/anh-dung-nguyen/)
 
 Project Link: [https://github.com/Anh-Dung-Nguyen/TodoApp](https://github.com/Anh-Dung-Nguyen/TodoApp)
